@@ -1,0 +1,12 @@
+.watch__arrow {
+    width: 4px;
+    height: 120px;
+    background: #000;
+    transform: translate(150px,-239px) rotate(180deg);
+    transform-origin: 0px 0px;
+    transition: all 5.0s ease 0s;
+}
+.watch__body:hover .watch__arrow {
+    transform: translate(150px,-239px) rotate(800deg);
+    transform-origin: 0px 0px;
+}
